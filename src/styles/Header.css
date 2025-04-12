@@ -1,0 +1,24 @@
+body {
+    margin: 0px; 
+    font-family: "Karla", sans-serif;
+}
+
+.Hambola {
+    margin: 8px;
+    margin-right: 20px;
+    height: 100px;
+    /* object-fit: contain; */
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    padding: 8px;
+    padding-left: 50px;
+    background: linear-gradient(to right, #4b0082, #9370db);
+    align-items: center;
+}
+
+header h1{
+    color: white;
+}
