@@ -1,6 +1,9 @@
+*{
+    font-family: "Karla", sans-serif;
+}
+
 body {
     margin: 0px; 
-    font-family: "Karla", sans-serif;
 }
 
 .Hambola {
@@ -17,6 +20,7 @@ header {
     padding-left: 50px;
     background: linear-gradient(to right, #4b0082, #9370db);
     align-items: center;
+    margin-bottom: 30px;
 }
 
 header h1{
