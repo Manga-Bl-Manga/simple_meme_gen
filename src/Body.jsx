@@ -9,16 +9,21 @@ export default function Body() {
         bottomText:"Walk into Mordor"
         })
 
+    function updateText(theEvent){
+        const {value, name} = theEvent.currentTarget;
+        console.log(value);
+        setMemeObj({...memeObj, [name]: value})
+    }
     return (
         <>
             <div className="theMeat">
                 <div className="form">
                     <label>Top Text
-                        <input type="text" name="top-half" />
+                        <input type="text" name="topText" onChange={updateText}/>
                     </label>
 
                     <label>Bottom Text
-                        <input type="text" name="top-half" />
+                        <input type="text" name="bottomText" onChange={updateText}/>
                     </label>
 
                 </div>
