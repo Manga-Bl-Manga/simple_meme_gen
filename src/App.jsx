@@ -7,7 +7,6 @@ export default function App() {
     <>
       <Header />
       <Body />
-      <h1>I work!</h1>
     </>
   )
 }
